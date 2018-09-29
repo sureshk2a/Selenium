@@ -1,17 +1,16 @@
 package login;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 public class L1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	}
-		public void start()
-		{
-			System.out.println("Program Running....");
-			System.out.println("This is my first repository..");
-			System.out.println("Test 1, HAI");
-		}
+		System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\Chrome Driver\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.ultimateqa.com/complicated-page/");
 
 	}
 
-
+}
