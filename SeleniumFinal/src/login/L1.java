@@ -9,6 +9,7 @@ public class L1 {
 		{
 			System.out.println("Program Running....");
 			System.out.println("This is my first repository..");
+			System.out.println("Test 1, HAI");
 		}
 
 	}
